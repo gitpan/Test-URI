@@ -1,3 +1,5 @@
+# $Id: MANIFEST,v 1.2 2002/09/09 16:54:39 comdog Exp $
+Changes
 MANIFEST
 Makefile.PL
 lib/URI.pm

@@ -1,4 +1,4 @@
-# $Id: URI.pm,v 1.1 2002/09/03 22:28:54 comdog Exp $
+# $Id: URI.pm,v 1.2 2002/09/03 22:37:23 comdog Exp $
 package Test::URI;
 use strict;
 
@@ -159,6 +159,11 @@ sub uri_port_ok($$)
 	
 =back
 
+=head1 TO DO
+
+* add methods: uri_canonical_ok, uri_query_string_ok, uri_path_ok,
+	uri_fragment_ok, uri_same_ok
+	
 =head1 AUTHOR
 
 brian d foy, E<lt>brian d foyE<gt>
