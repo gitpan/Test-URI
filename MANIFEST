@@ -1,9 +1,14 @@
-# $Id: MANIFEST,v 1.2 2002/09/09 16:54:39 comdog Exp $
+# $Id: MANIFEST,v 1.3 2004/11/22 00:22:41 comdog Exp $
 Changes
 MANIFEST
 Makefile.PL
 lib/URI.pm
+t/fragment.t
+t/path.t
 t/functions.t
 t/load.t
 t/pod.t
+t/prereq.t
 t/test_manifest
+META.yml                                 Module meta-data (added by MakeMaker)
+README
