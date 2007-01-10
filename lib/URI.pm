@@ -1,4 +1,4 @@
-# $Id: URI.pm,v 1.5 2006/05/18 02:23:09 comdog Exp $
+# $Id: URI.pm,v 1.6 2007/01/10 04:55:16 comdog Exp $
 package Test::URI;
 use strict;
 
@@ -14,7 +14,7 @@ my $Test = Test::Builder->new();
 @EXPORT = qw(uri_scheme_ok uri_host_ok uri_port_ok uri_fragment_ok
 	uri_path_ok);
 
-$VERSION = sprintf "%d.%02d", q$Revision: 1.5 $ =~ /(\d+)\.(\d+)/;
+$VERSION = sprintf "%d.%02d", q$Revision: 1.6 $ =~ /(\d+)\.(\d+)/;
 
 =head1 NAME
 
@@ -214,12 +214,12 @@ members of the project can shepherd this module appropriately.
 
 brian d foy, C<< <bdfoy@cpan.org> >>
 
-=head1 COPYRIGHT
+=head1 COPYRIGHT AND LICENSE
 
-Copyright 2004-2006 brian d foy, All rights reserved.
+Copyright (c) 2004-2007 brian d foy.  All rights reserved.
 
-You can use this module under the same terms as
-Perl itself.
+This program is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut
 
