@@ -1,9 +1,9 @@
 --- #YAML:1.0
 name:                Test-URI
-version:             1.06
+version:             1.07
 abstract:            Check Uniform Resource Identifiers
 license:             perl
-generated_by:        ExtUtils::MakeMaker version 6.31
+generated_by:        ExtUtils::MakeMaker version 6.32
 distribution_type:   module
 requires:     
     Test::Builder::Tester:         0
@@ -12,3 +12,5 @@ requires:
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.2.html
     version: 1.2
+author:
+    - brian d foy <bdfoy@cpan.org>

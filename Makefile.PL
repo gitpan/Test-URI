@@ -1,4 +1,4 @@
-# $Id: Makefile.PL,v 1.4 2007/01/10 04:55:16 comdog Exp $
+# $Id: Makefile.PL 2301 2007-08-13 02:53:48Z comdog $
 use ExtUtils::MakeMaker;
 
 eval "use Test::Manifest 1.14";
@@ -9,6 +9,7 @@ WriteMakefile
 	'ABSTRACT'       => 'Check Uniform Resource Identifiers',
 	'VERSION_FROM'   => 'lib/URI.pm',
 	'LICENSE'        => 'perl',
+	'AUTHOR'         => 'brian d foy <bdfoy@cpan.org>',
 
 	'PREREQ_PM' => {
 		'Test::More'            => '0',

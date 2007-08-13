@@ -1,4 +1,4 @@
-# $Id: functions.t,v 1.2 2004/11/22 00:22:41 comdog Exp $
+# $Id: functions.t 1534 2004-11-22 00:22:41Z comdog $
 
 BEGIN {
 	@good_uri_pairs = (

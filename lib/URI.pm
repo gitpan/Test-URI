@@ -1,4 +1,4 @@
-# $Id: URI.pm,v 1.6 2007/01/10 04:55:16 comdog Exp $
+# $Id: URI.pm 2301 2007-08-13 02:53:48Z comdog $
 package Test::URI;
 use strict;
 
@@ -14,7 +14,7 @@ my $Test = Test::Builder->new();
 @EXPORT = qw(uri_scheme_ok uri_host_ok uri_port_ok uri_fragment_ok
 	uri_path_ok);
 
-$VERSION = sprintf "%d.%02d", q$Revision: 1.6 $ =~ /(\d+)\.(\d+)/;
+$VERSION = 1.07;
 
 =head1 NAME
 

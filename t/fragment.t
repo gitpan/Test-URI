@@ -1,4 +1,4 @@
-# $Id: fragment.t,v 1.1 2004/11/22 00:22:41 comdog Exp $
+# $Id: fragment.t 1534 2004-11-22 00:22:41Z comdog $
 
 use Test::Builder::Tester tests => 6;
 use Test::More;
